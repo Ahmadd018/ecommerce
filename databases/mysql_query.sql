@@ -38,6 +38,7 @@ COLLATE = utf8mb4_0900_ai_ci;
 -- -----------------------------------------------------
 DROP TABLE IF EXISTS `shopping-cart`.`orders` ;
 
+
 CREATE TABLE IF NOT EXISTS `shopping-cart`.`orders` (
   `orderid` VARCHAR(45) NOT NULL,
   `prodid` VARCHAR(45) NOT NULL,
