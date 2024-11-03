@@ -115,6 +115,7 @@ public class AddtoCart extends HttpServlet {
 			throws ServletException, IOException {
 
 		doGet(request, response);
+				
 	}
 
 }
